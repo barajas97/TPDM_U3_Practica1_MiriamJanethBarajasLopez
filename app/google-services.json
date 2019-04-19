@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "904107992346",
+    "firebase_url": "https://tpdmu3proyecto2.firebaseio.com",
+    "project_id": "tpdmu3proyecto2",
+    "storage_bucket": "tpdmu3proyecto2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904107992346:android:a3d38d85449ef158",
+        "android_client_info": {
+          "package_name": "mx.edu.ittepic.miriambarajas.tpdm_u3_practica1_miriamjanethbarajaslpez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904107992346-hohvietg77nfdqaark7gvmr15j9f5ntv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1OrJZjP_UihwN1nLsmFXAXe7cp_bJWKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904107992346-hohvietg77nfdqaark7gvmr15j9f5ntv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904107992346:android:bb7166862e1dc14a",
+        "android_client_info": {
+          "package_name": "mx.edu.ittepic.miriambarajas.tpdm_u3_practica2_miriamjanethbarajaslopez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904107992346-hohvietg77nfdqaark7gvmr15j9f5ntv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1OrJZjP_UihwN1nLsmFXAXe7cp_bJWKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904107992346-hohvietg77nfdqaark7gvmr15j9f5ntv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

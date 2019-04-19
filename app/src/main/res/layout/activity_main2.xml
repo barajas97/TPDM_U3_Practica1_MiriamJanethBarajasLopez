@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fabricante: "
+        android:textColor="#000000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fabricante"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No. Lote de producción: "
+        android:textColor="#000000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/lote"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Categoria: "
+        android:textColor="#000000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/categoria"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disponible: "
+        android:textColor="#000000"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Con stock"
+            android:id="@+id/sistock"
+            android:checked="true"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sin stock"
+            android:id="@+id/nostock"/>
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+        <Button
+            android:id="@+id/insertar"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="Insertar" />
+
+        <Button
+            android:id="@+id/consultar"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/insertar"
+            android:text="Consultar" />
+
+        <Button
+            android:id="@+id/actualizar"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/insertar"
+            android:text="Actualizar" />
+
+        <Button
+            android:id="@+id/eliminar"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/insertar"
+            android:layout_toRightOf="@id/actualizar"
+            android:layout_marginLeft="40dp"
+            android:text="Eliminar" />
+    </RelativeLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listaDatos"/>
+
+</LinearLayout>
